@@ -1,0 +1,22 @@
+.venv/
+venv/
+env/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+
+# Notebook and report outputs
+reports/*
+!reports/.gitkeep
+models/*
+!models/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
